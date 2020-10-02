@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Enrichers.ShortTypeName", "src\Serilog.Enrichers.ShortTypeName\Serilog.Enrichers.ShortTypeName.csproj", "{64FD9D21-5235-4664-8037-71F53212B016}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3C2D09CB-1660-4034-9F33-0ECE5F765EF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{44351C20-1FFD-4497-8541-E857CA7D1D39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Enrichers.ShortTypeName.Tests", "test\Serilog.Enrichers.ShortTypeName.Tests\Serilog.Enrichers.ShortTypeName.Tests.csproj", "{979D90DC-293E-47DE-838A-5379D084D267}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64FD9D21-5235-4664-8037-71F53212B016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FD9D21-5235-4664-8037-71F53212B016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FD9D21-5235-4664-8037-71F53212B016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FD9D21-5235-4664-8037-71F53212B016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979D90DC-293E-47DE-838A-5379D084D267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979D90DC-293E-47DE-838A-5379D084D267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979D90DC-293E-47DE-838A-5379D084D267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979D90DC-293E-47DE-838A-5379D084D267}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64FD9D21-5235-4664-8037-71F53212B016} = {3C2D09CB-1660-4034-9F33-0ECE5F765EF3}
+		{979D90DC-293E-47DE-838A-5379D084D267} = {44351C20-1FFD-4497-8541-E857CA7D1D39}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC59F9B4-C260-41B3-B000-30F0C4CE4E30}
+	EndGlobalSection
+EndGlobal
