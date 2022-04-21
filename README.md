@@ -59,7 +59,7 @@ public class MyClass
 {
     private readonly ILogger<MyClass> logger;
 
-    public Genome(ILogger<MyClass> logger)
+    public MyClass(ILogger<MyClass> logger)
     {
         this.logger = logger;
     }
