@@ -8,7 +8,7 @@ Logs with SourceContext "MyAssembly.MyNamespace.MyType", will be enriched with S
 
 Best used with [Serilog.Extensions.Logging](https://github.com/serilog/serilog-extensions-logging) which will automatically enrich the logs with SourceContext that's required for this enricher.
 
-Set the output template to something like `"[{Timestamp:HH:mm:ss} {Level:u3}] ({TypeName}) {Message:lj}{NewLine}{Exception}"`
+Set the output template to something like `"[{Timestamp:HH:mm:ss} {Level:u3}] ({ShortTypeName}) {Message:lj}{NewLine}{Exception}"`
 
 ## Example
 
