@@ -18,7 +18,8 @@ namespace Serilog.Enrichers.ShortTypeName
 
             if (logEvent.Properties.TryGetValue("SourceContext", out var value))
             {
-                var source = value.ToString().Replace("\"", string.Empty, StringComparison.Ordinal).Split('.').Last();
+                var typeNameWithoutGenerics = value.ToString().Replace("\"", string.Empty, StringComparison.Ordinal).Split('`').First();
+                var source = typeNameWithoutGenerics.Split('.').Last();
 
                 logEvent.AddPropertyIfAbsent(propertyFactory.CreateProperty("ShortTypeName", source));
             }
